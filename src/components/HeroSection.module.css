@@ -1,6 +1,6 @@
 .hero {
       display: flex;
-      justify-content: space-between;
+      justify-content: center; /* Center the content horizontally */
       align-items: center;
       background-color: #f8f5f2;
       padding: 50px;
@@ -8,6 +8,7 @@
 
     .heroContent {
       max-width: 60%;
+      margin-right: 20px; /* Add some margin to separate from the image */
     }
 
     .heroTitle {
@@ -77,6 +78,7 @@
       .heroContent {
         max-width: 100%;
         margin-bottom: 30px;
+        margin-right: 0; /* Remove margin on small screens */
       }
 
       .heroTitle {
@@ -93,5 +95,6 @@
 
       .heroImage {
         width: 60%;
+        display: none;
       }
     }

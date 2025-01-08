@@ -149,4 +149,8 @@
         color: #888;
         margin: 8px 0;
       }
+
+      .tryClaudeButton {
+        display: none;
+      }
     }

@@ -50,3 +50,28 @@
       color: #333;
       margin-bottom: 5px;
     }
+
+    @media (max-width: 768px) {
+      .announcements {
+        padding: 30px 20px;
+      }
+
+      .announcementCard {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+      }
+
+      .announcementContent {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .announcementHeadline {
+        font-size: 1.4rem;
+      }
+
+      .modelUpdates {
+        width: 100%;
+      }
+    }

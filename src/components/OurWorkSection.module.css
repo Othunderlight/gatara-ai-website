@@ -36,3 +36,17 @@
       font-size: 0.9rem;
       color: #555;
     }
+
+    @media (max-width: 768px) {
+      .ourWork {
+        padding: 30px 20px;
+      }
+
+      .workCards {
+        flex-direction: column;
+      }
+
+      .workCard {
+        width: auto;
+      }
+    }

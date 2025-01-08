@@ -39,3 +39,24 @@
       cursor: pointer;
       font-size: 1rem;
     }
+
+    @media (max-width: 768px) {
+      .workWithUs {
+        flex-direction: column;
+        padding: 30px 20px;
+      }
+
+      .imageContainer {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 30px;
+      }
+
+      .content {
+        width: 100%;
+      }
+
+      .title {
+        font-size: 1.8rem;
+      }
+    }

@@ -67,3 +67,31 @@
       justify-content: center;
       align-items: center;
     }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        padding: 30px 20px;
+      }
+
+      .heroContent {
+        max-width: 100%;
+        margin-bottom: 30px;
+      }
+
+      .heroTitle {
+        font-size: 2rem;
+      }
+
+      .cards {
+        flex-direction: column;
+      }
+
+      .card {
+        width: auto;
+      }
+
+      .heroImage {
+        width: 60%;
+      }
+    }

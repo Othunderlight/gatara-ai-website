@@ -43,3 +43,28 @@
       margin-top: 20px;
       color: #888;
     }
+
+    @media (max-width: 768px) {
+      .footer {
+        padding: 30px 20px;
+      }
+
+      .footerContent {
+        flex-direction: column;
+      }
+
+      .logoContainer {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+
+      .linksContainer {
+        width: 100%;
+        flex-direction: column;
+        gap: 30px;
+      }
+
+      .linksColumn {
+        width: 100%;
+      }
+    }

@@ -1,30 +1,43 @@
 .header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px 50px;
-      background-color: #f8f5f2;
       position: fixed;
       top: 0;
       left: 0;
       right: 0;
       z-index: 1000;
+      background-color: #f8f5f2;
+    }
+
+    .headerContent {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      flex: 1;
     }
 
     .logo {
       font-size: 1.2rem;
       font-weight: bold;
+      font-family: sans-serif;
+    }
+
+    .hamburger {
+      display: none;
     }
 
     .nav {
       display: flex;
       align-items: center;
+      flex: 1;
+      justify-content: flex-end;
     }
 
     .navLink {
       margin-left: 20px;
       text-decoration: none;
       color: #333;
+      font-size: 1rem;
+      font-family: sans-serif;
     }
 
     .tryClaudeButton {
@@ -35,14 +48,105 @@
       border: none;
       cursor: pointer;
       font-size: 1rem;
+      border-radius: 5px;
+      font-family: sans-serif;
+    }
+
+    .mainLinks {
+      display: flex;
+      align-items: center;
+    }
+
+    .secondaryLinks {
+      display: none;
     }
 
     @media (max-width: 768px) {
-      .header {
-        padding: 10px 20px;
+      .headerContent {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        z-index: 1001;
+      }
+
+      .hamburger span {
+        width: 100%;
+        height: 2px;
+        background-color: #222;
+        transition: all 0.3s ease;
+      }
+
+      .hamburgerOpen span {
+        background-color: white;
+      }
+
+      .hamburgerOpen span:first-child {
+        transform: translateY(9px) rotate(45deg);
+      }
+
+      .hamburgerOpen span:nth-child(2) {
+        opacity: 0;
+      }
+
+      .hamburgerOpen span:last-child {
+        transform: translateY(-9px) rotate(-45deg);
       }
 
       .nav {
         display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #111;
+        padding: 80px 20px 40px;
+        overflow-y: auto;
+      }
+
+      .navOpen {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .mainLinks {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin-bottom: 40px;
+      }
+
+      .secondaryLinks {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+      }
+
+      .navLink {
+        margin: 10px 0;
+        color: white;
+        font-size: 1.8rem;
+        font-weight: 500;
+      }
+
+      .secondaryLinks .navLink {
+        font-size: 1rem;
+        color: #888;
+        margin: 8px 0;
       }
     }

@@ -6,28 +6,24 @@ import React from 'react';
         <section className={styles.hero}>
           <div className={styles.heroContent}>
             <h1 className={styles.heroTitle}>
-              AI <span className={styles.underline}>research</span> and <span className={styles.underline}>products</span>
+              AI <span className={styles.underline}>products</span> that actually 
               <br />
-              that put safety at the
+              solve real problems,
               <br />
-              frontier
+              and make magic  
+              <br />
+              happen.
             </h1>
             <div className={styles.cards}>
               <div className={styles.card}>
-                <h2 className={styles.cardTitle}>CLAUDE.AI</h2>
-                <h3 className={styles.cardSubtitle}>Meet Claude 3.5 Sonnet</h3>
+                <span className={styles.cardTitle}>Murshed.AI</span>
+                <h1 className={styles.cardSubtitle}>Meet Murshed 1.0</h1>
                 <p className={styles.cardText}>
-                  Claude 3.5 Sonnet, our most intelligent AI model, is now available.
+                  Murshed 1.0, our first AI SaaS product, is now available.
                 </p>
-                <button className={styles.cardButton}>Talk to Claude</button>
-              </div>
-              <div className={styles.card}>
-                <h2 className={styles.cardTitle}>API</h2>
-                <h3 className={styles.cardSubtitle}>Build with Claude</h3>
-                <p className={styles.cardText}>
-                  Create AI-powered applications and custom experiences using Claude.
-                </p>
-                <button className={styles.cardButton}>Learn more</button>
+                <a href="https://murshed.gatara.org" target="_blank" rel="noopener noreferrer">
+                  <button className={styles.cardButton}>Try Murshed</button>
+                </a>
               </div>
             </div>
           </div>

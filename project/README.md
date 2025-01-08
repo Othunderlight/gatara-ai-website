@@ -1,1 +1,0 @@
-# gatara-ai-website

@@ -12,10 +12,10 @@ import React, { useState } from 'react';
       return (
         <header className={styles.header}>
           <div className={styles.headerContent}>
-            <div className={styles.logo}>ANTHROPIC</div>
+            <div className={styles.logo}>GATARA AI</div>
             <nav className={`${styles.nav} ${isMenuOpen ? styles.navOpen : ''}`}>
               <div className={styles.mainLinks}>
-                <a href="#" className={styles.navLink}>Claude</a>
+                <a href="#" className={styles.navLink}>Murshed</a>
                 <a href="#" className={styles.navLink}>Research</a>
                 <a href="#" className={styles.navLink}>Company</a>
                 <a href="#" className={styles.navLink}>Careers</a>
@@ -33,7 +33,7 @@ import React, { useState } from 'react';
                 <a href="#" className={styles.navLink}>Terms of Service - Consumer</a>
                 <a href="#" className={styles.navLink}>Terms of Service - Commercial</a>
               </div>
-              <button className={styles.tryClaudeButton}>Try Claude</button>
+              <button className={styles.tryMurshedButton}>Try Murshed</button>
             </nav>
             <button 
               className={`${styles.hamburger} ${isMenuOpen ? styles.hamburgerOpen : ''}`} 

@@ -12,9 +12,9 @@ import React from 'react';
             />
           </div>
           <div className={styles.content}>
-            <h2 className={styles.title}>Work with Anthropic</h2>
+            <h2 className={styles.title}>Work with Gatara AI</h2>
             <p className={styles.description}>
-              Anthropic is an AI safety and research company based in San Francisco. Our interdisciplinary team has
+              Gatara AI is an AI safety and research company based in San Francisco. Our interdisciplinary team has
               experience across ML, physics, policy, and product. Together, we generate research and create reliable,
               beneficial AI systems.
             </p>

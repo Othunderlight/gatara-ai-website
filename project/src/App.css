@@ -1,6 +1,0 @@
-.app-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  padding-top: 80px; /* Add padding to account for fixed header */
-}

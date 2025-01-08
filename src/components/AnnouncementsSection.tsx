@@ -8,7 +8,7 @@ import React from 'react';
             <div className={styles.announcementContent}>
               <h4 className={styles.announcementTitle}>Announcements</h4>
               <h2 className={styles.announcementHeadline}>
-                Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku
+                Introducing computer use, a new Murshed 3.5 Sonnet, and Murshed 3.5 Haiku
               </h2>
               <p className={styles.announcementDate}>Oct 22, 2024</p>
             </div>

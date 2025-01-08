@@ -8,7 +8,7 @@ import React from 'react';
           <div className={styles.workCards}>
             <div className={styles.workCard}>
               <h4 className={styles.cardCategory}>Product</h4>
-              <h3 className={styles.cardTitle}>Claude for Enterprise</h3>
+              <h3 className={styles.cardTitle}>Murshed for Enterprise</h3>
               <p className={styles.cardDate}>Sep 4, 2024</p>
             </div>
             <div className={styles.workCard}>

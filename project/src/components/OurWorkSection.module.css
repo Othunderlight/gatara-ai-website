@@ -1,0 +1,52 @@
+.ourWork {
+  padding: 50px;
+  text-align: center;
+}
+
+.ourWorkTitle {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.workCards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.workCard {
+  background-color: #f0e8d9;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: left;
+}
+
+.cardCategory {
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.cardTitle {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.cardDate {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .ourWork {
+    padding: 30px 20px;
+  }
+
+  .workCards {
+    flex-direction: column;
+  }
+
+  .workCard {
+    width: auto;
+  }
+}

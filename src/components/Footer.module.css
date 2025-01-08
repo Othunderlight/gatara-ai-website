@@ -1,0 +1,45 @@
+.footer {
+      background-color: #222;
+      color: white;
+      padding: 50px;
+    }
+
+    .footerContent {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .logoContainer {
+      width: 10%;
+    }
+
+    .logo {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .linksContainer {
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .linksColumn {
+      display: flex;
+      flex-direction: column;
+      width: 25%;
+    }
+
+    .link {
+      color: #888;
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+
+    .copyright {
+      margin-top: 20px;
+      color: #888;
+    }
